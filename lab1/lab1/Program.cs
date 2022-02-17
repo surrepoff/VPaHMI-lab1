@@ -41,9 +41,8 @@ class Program
 {
     public static void Main(string[] args)
     {
-        int n = 1;
-        int[] customers = {5, 3, 4};
-
-        Console.WriteLine(HW1.QueueTime(customers, n));
+        Console.WriteLine(HW1.QueueTime(new int[] { 5, 3, 4 }, 1));
+        Console.WriteLine(HW1.QueueTime(new int[] { 10, 2, 3, 3 }, 2));
+        Console.WriteLine(HW1.QueueTime(new int[] { 2, 3, 10 }, 2));
     }
 }
